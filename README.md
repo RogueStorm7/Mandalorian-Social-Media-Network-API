@@ -38,7 +38,7 @@ This application runs using MongoDB.
 - Run the following commands to get set everything up.
     -   npm init -y
     - npm install [express](https://www.npmjs.com/package/express)
-    - npm install [mongoose]((https://www.npmjs.com/package/mongoose))
+    - npm install [mongoose](https://www.npmjs.com/package/mongoose)
 
 - To start the server:
     - **npm start**
