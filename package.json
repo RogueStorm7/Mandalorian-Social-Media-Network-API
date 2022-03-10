@@ -1,0 +1,27 @@
+{
+  "name": "morally-engaged-social-media-network-api",
+  "version": "1.0.0",
+  "description": "NoSQL Social Network Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "npm start "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogueStorm7/Morally-Engaged-Social-Media-Network-API.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogueStorm7/Morally-Engaged-Social-Media-Network-API/issues"
+  },
+  "homepage": "https://github.com/RogueStorm7/Morally-Engaged-Social-Media-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5"
+  }
+}
