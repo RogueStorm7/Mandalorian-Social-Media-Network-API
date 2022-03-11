@@ -6,11 +6,10 @@
 - [Acceptance-Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Demo](#demo)
-- [](#)
 - [Repo](#repo)
 - [Contact](#contact)
-
-
+- [Contributing-to-This-Repo](#contributing-to-this-repo)
+- [badge](#badges)
 
 # Description
 This Morally Engaged Social Media Network API uses **_MongoDB_** database. This allows mass amounts of data that is unstructured to be manageable for a website. I am using [Mongoose](https://www.npmjs.com/package/mongoose) which supports promises and callbacks as well as [Express](https://www.npmjs.com/package/express)   
@@ -50,5 +49,25 @@ This application runs using MongoDB.
 
 
 # Repo
+Check out my Github profile at [RogueStorm](https://github.com/RogueStorm7/Morally-Engaged-Social-Media-Network-API.git)
+
 
 # Contact
+[miantamcknight@220gmail.com](https://miantamcknight220@gmail.com)
+
+# Contributing to This Repo: 
+Not taking pull requests at this time.
+
+
+## Badges📖
+![badge size](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)
+![badge size](https://img.shields.io/badge/npm%20package-mongoose-cyan?style=flat-square&logo=npm) 
+![badge size](https://img.shields.io/badge/npm%20package-insomnia-%3CCOLOR%3E?style=flat-square&logo=npm)
+![badge size](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) 
+![badge size](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
+![License](https://img.shields.io/badge/License-ISC-blue)
+![badge size](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+
+
+&copy; 2022 Mianta McKnight  | All rights reserved | 
