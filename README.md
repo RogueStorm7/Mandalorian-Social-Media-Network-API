@@ -7,7 +7,9 @@
 - [User Story](#user-story)
 - [Acceptance-Criteria](#acceptance-criteria)
 - [Installation](#installation)
+- [Mock-Up](#mock-up)
 - [Demo](#demo)
+- [Insomnia-testing](#insomnia-testing)
 - [Repo](#repo)
 - [Contact](#contact)
 - [Contributing-to-This-Repo](#contributing-to-this-repo)
@@ -44,12 +46,40 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 - To start the server:
     - **npm start**
 
+<img src="./assets/npm start screenshot.png">
 
 
+# Mock-Up
+<img src="./assets/18-nosql-homework-demo-04.gif">
 
 # Demo
 
+# Insomnia Testing
+Open **Insomnia** app
 
+**`localhost:/3001/api/users`**
+* `GET` all users
+* `GET` a single user by its `_id` and populated thought and friend data
+* `POST` a new user:
+
+**`/api/users/:userId/friends/:friendId`**
+* `POST` to add a new friend to a user's friend list
+* `DELETE` to remove a friend from a user's friend list
+
+**`/api/thoughts`** 
+* `GET` to get all thoughts
+* `POST` to create a new thought
+
+**`/api/thoughts/:thoughtId`**
+* `GET` to get a single thought by its `_id`
+* `PUT` to update a thought by its `_id`
+* `DELETE` to remove a thought by its `_id`
+
+**`/api/thoughts/:thoughtId/reactions`**
+* `POST` to create a reaction 
+* `DELETE` to pull and remove a reaction by the reaction's `reactionId`
+  
+   
 # Repo
 Check out my Github profile at [RogueStorm](https://github.com/RogueStorm7/Morally-Engaged-Social-Media-Network-API.git)
 
@@ -77,4 +107,4 @@ Not taking pull requests at this time.
 
 
 
-&copy; 2022 Mianta McKnight  | All rights reserved | 
+&copy; 2022 Mianta McKnight ✨ | All rights reserved | 
