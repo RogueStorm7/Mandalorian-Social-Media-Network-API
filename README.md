@@ -1,4 +1,4 @@
-##                      🌌 Mandalorian Social Media Network API 🌌
+##                     <p align= center><html>🌌 Mandalorian Social Media Network API 🌌</html></p>
 <p align= "center">
 <img src= "./assets/baby-yoda-2.gif" style="width: 300px; height: 300px;"</p>
 

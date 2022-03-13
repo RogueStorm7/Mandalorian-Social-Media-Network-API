@@ -1,7 +1,7 @@
 const { User, Thought } = require('../models');
 
 const userController = {
-  // /api/users
+  //api/users
   // get all users
   getAllUser(req, res) {
     User.find({})
@@ -27,7 +27,7 @@ const userController = {
       })
       .then(dbUserData => {
         if (!dbUserData) {
-          res.status(404).json({ message: 'No User found with this id!' });
+          res.status(404).json({ message: 'No User found with this ID!' });
           return;
         }
         res.json(dbUserData);
@@ -75,7 +75,7 @@ const userController = {
       .catch(err => res.json(err));
   },
 
-  // /api/users/:userid/fiends/:friendId
+  // /api/users/:user id/fiends/:friendId
   addFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
@@ -100,7 +100,7 @@ const userController = {
     )
       .then((dbUserData) => {
         if (!dbUserData) {
-          res.status(404).json({ message: 'No user found with this id' });
+          res.status(404).json({ message: 'No user found with this ID' });
           return;
         }
         res.json(dbUserData);
